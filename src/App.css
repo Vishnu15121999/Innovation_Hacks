@@ -28,6 +28,44 @@
   color: #61dafb;
 }
 
+.financial-box:hover{
+  background-color: rgb(245, 245, 245);
+}
+.staffing-box:hover{
+  background-color: rgb(245, 245, 245);
+}
+.digital-box:hover{
+  background-color: rgb(245, 245, 245);
+}
+.retail-box:hover{
+  background-color: rgb(245, 245, 245);
+}
+.logistic-box:hover{
+  background-color: rgb(245, 245, 245);
+}
+.aboutus-box:hover{
+  background-color: rgb(245, 245, 245);
+}
+.careers-box:hover{
+  background-color: rgb(245, 245, 245);
+}
+.contactus-box:hover{
+  background-color: rgb(245, 245, 245);
+}
+
+.rotate {
+  transition: transform 0.3s ease-out;
+  display: inline-block; /* Ensure the span takes only the space it needs */
+}
+
+.rotate.down {
+  transform: rotate(0deg);
+}
+
+.rotate.up {
+  transform: rotate(180deg);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
